@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA74B2E2499356200A38DE4 /* Passport+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B262499356200A38DE4 /* Passport+CoreDataClass.swift */; };
+		3DA74B2F2499356200A38DE4 /* Passport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B272499356200A38DE4 /* Passport+CoreDataProperties.swift */; };
+		3DA74B302499356200A38DE4 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B282499356200A38DE4 /* User+CoreDataClass.swift */; };
+		3DA74B312499356200A38DE4 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B292499356200A38DE4 /* User+CoreDataProperties.swift */; };
+		3DA74B322499356200A38DE4 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B2A2499356200A38DE4 /* Task+CoreDataClass.swift */; };
+		3DA74B332499356200A38DE4 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B2B2499356200A38DE4 /* Task+CoreDataProperties.swift */; };
+		3DA74B342499356200A38DE4 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B2C2499356200A38DE4 /* Country+CoreDataClass.swift */; };
+		3DA74B352499356200A38DE4 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B2D2499356200A38DE4 /* Country+CoreDataProperties.swift */; };
+		3DA74B372499368C00A38DE4 /* Model-V1-to-V2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3DA74B362499368C00A38DE4 /* Model-V1-to-V2.xcmappingmodel */; };
 		3DC6F43A2493D8FC00612C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6F4392493D8FC00612C6D /* AppDelegate.swift */; };
 		3DC6F43C2493D8FC00612C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6F43B2493D8FC00612C6D /* SceneDelegate.swift */; };
 		3DC6F43E2493D8FC00612C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6F43D2493D8FC00612C6D /* ViewController.swift */; };
@@ -17,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DA74B21249931DA00A38DE4 /* CoreDataRelationship 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataRelationship 2.xcdatamodel"; sourceTree = "<group>"; };
+		3DA74B262499356200A38DE4 /* Passport+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B272499356200A38DE4 /* Passport+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B282499356200A38DE4 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B292499356200A38DE4 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B2A2499356200A38DE4 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B2B2499356200A38DE4 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B2C2499356200A38DE4 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B2D2499356200A38DE4 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3DA74B362499368C00A38DE4 /* Model-V1-to-V2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Model-V1-to-V2.xcmappingmodel"; sourceTree = "<group>"; };
 		3DC6F4362493D8FC00612C6D /* CoreDataRelationship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataRelationship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6F4392493D8FC00612C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC6F43B2493D8FC00612C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,16 +77,73 @@
 		3DC6F4382493D8FC00612C6D /* CoreDataRelationship */ = {
 			isa = PBXGroup;
 			children = (
-				3DC6F4392493D8FC00612C6D /* AppDelegate.swift */,
-				3DC6F43B2493D8FC00612C6D /* SceneDelegate.swift */,
-				3DC6F43D2493D8FC00612C6D /* ViewController.swift */,
-				3DC6F43F2493D8FC00612C6D /* Main.storyboard */,
-				3DC6F4452493D8FD00612C6D /* Assets.xcassets */,
-				3DC6F4472493D8FD00612C6D /* LaunchScreen.storyboard */,
-				3DC6F44A2493D8FD00612C6D /* Info.plist */,
-				3DC6F4422493D8FC00612C6D /* CoreDataRelationship.xcdatamodeld */,
+				3DC6F47C2496DFA400612C6D /* Model */,
+				3DC6F45D24969BC300612C6D /* EntityManagement */,
+				3DC6F4782496DF4B00612C6D /* Common */,
+				3DC6F4792496DF5700612C6D /* Controller */,
+				3DC6F47A2496DF6100612C6D /* View */,
+				3DC6F47B2496DF8900612C6D /* Utils */,
 			);
 			path = CoreDataRelationship;
+			sourceTree = "<group>";
+		};
+		3DC6F45D24969BC300612C6D /* EntityManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3DA74B262499356200A38DE4 /* Passport+CoreDataClass.swift */,
+				3DA74B272499356200A38DE4 /* Passport+CoreDataProperties.swift */,
+				3DA74B282499356200A38DE4 /* User+CoreDataClass.swift */,
+				3DA74B292499356200A38DE4 /* User+CoreDataProperties.swift */,
+				3DA74B2A2499356200A38DE4 /* Task+CoreDataClass.swift */,
+				3DA74B2B2499356200A38DE4 /* Task+CoreDataProperties.swift */,
+				3DA74B2C2499356200A38DE4 /* Country+CoreDataClass.swift */,
+				3DA74B2D2499356200A38DE4 /* Country+CoreDataProperties.swift */,
+			);
+			path = EntityManagement;
+			sourceTree = "<group>";
+		};
+		3DC6F4782496DF4B00612C6D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6F4392493D8FC00612C6D /* AppDelegate.swift */,
+				3DC6F43B2493D8FC00612C6D /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3DC6F4792496DF5700612C6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6F43D2493D8FC00612C6D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DC6F47A2496DF6100612C6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6F43F2493D8FC00612C6D /* Main.storyboard */,
+				3DC6F4472493D8FD00612C6D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DC6F47B2496DF8900612C6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6F4452493D8FD00612C6D /* Assets.xcassets */,
+				3DC6F44A2493D8FD00612C6D /* Info.plist */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3DC6F47C2496DFA400612C6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6F4422493D8FC00612C6D /* CoreDataRelationship.xcdatamodeld */,
+				3DA74B362499368C00A38DE4 /* Model-V1-to-V2.xcmappingmodel */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +218,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC6F43E2493D8FC00612C6D /* ViewController.swift in Sources */,
+				3DA74B322499356200A38DE4 /* Task+CoreDataClass.swift in Sources */,
+				3DA74B2E2499356200A38DE4 /* Passport+CoreDataClass.swift in Sources */,
+				3DA74B372499368C00A38DE4 /* Model-V1-to-V2.xcmappingmodel in Sources */,
+				3DA74B312499356200A38DE4 /* User+CoreDataProperties.swift in Sources */,
+				3DA74B342499356200A38DE4 /* Country+CoreDataClass.swift in Sources */,
 				3DC6F43A2493D8FC00612C6D /* AppDelegate.swift in Sources */,
+				3DA74B2F2499356200A38DE4 /* Passport+CoreDataProperties.swift in Sources */,
 				3DC6F4442493D8FC00612C6D /* CoreDataRelationship.xcdatamodeld in Sources */,
+				3DA74B352499356200A38DE4 /* Country+CoreDataProperties.swift in Sources */,
 				3DC6F43C2493D8FC00612C6D /* SceneDelegate.swift in Sources */,
+				3DA74B332499356200A38DE4 /* Task+CoreDataProperties.swift in Sources */,
+				3DA74B302499356200A38DE4 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +432,10 @@
 		3DC6F4422493D8FC00612C6D /* CoreDataRelationship.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3DA74B21249931DA00A38DE4 /* CoreDataRelationship 2.xcdatamodel */,
 				3DC6F4432493D8FC00612C6D /* CoreDataRelationship.xcdatamodel */,
 			);
-			currentVersion = 3DC6F4432493D8FC00612C6D /* CoreDataRelationship.xcdatamodel */;
+			currentVersion = 3DA74B21249931DA00A38DE4 /* CoreDataRelationship 2.xcdatamodel */;
 			path = CoreDataRelationship.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
